@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*Formatação da tabela com informações do livro*/
+
+table.tabela-livro{
+    border: 2px rgb(86, 61, 35) solid;
+    border-spacing: 0px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+table.tabela-livro caption{
+    display: none;
+}
+
+.hTitulo{
+    text-align: center;
+    padding: 10px;
+} 
+
+table.tabela-livro tr td{
+    padding: 10px;
+    border: 2px rgb(86, 61, 35) solid;
+}

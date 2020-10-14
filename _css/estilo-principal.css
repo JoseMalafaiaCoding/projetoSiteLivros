@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font: normal 15pt Arial;
+    background-color: #ECDFD1;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(60, 57, 62);
+}
+
+p span{
+    font-size: 80px;
+}
+
+/*Formatação do cabeçalho*/
+
+header#cabecalho-principal{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    border: 1px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: white; /*Trocar cor da fonte*/
+    background-color: rgb(184, 72, 60);
+}
+
+header#cabecalho-principal img{
+}
+
+/*Formatação do menu de navegação*/
+
+nav#menu-principal{
+    background-color: rgb(166, 189, 158);
+    display: block;
+    margin: 0px 5% 10px 5%;
+}
+
+nav#menu-principal h1{
+    display: none;
+}
+
+nav#menu-principal ul{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav#menu-principal ul li{
+    display: inline-block;
+    font-style: normal;
+    color: rgb(60, 57, 62);
+    position: relative;
+}
+
+nav#menu-principal ul li a{
+    font-style: normal;
+    color: rgb(60, 57, 62);
+}
+
+ul.submenu{
+    display: none;
+    color: white;
+}
+
+/*Formatação da região main da página principal*/
+
+main#corpo{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    background-color: rgb(226, 193, 139);
+    display: block;
+    color: rgb(33, 55, 59);
+    flex-wrap: wrap;
+}
+
+/*Disposição do conteúdo da página*/
+
+div#conteudo-pagina{
+    display: flex;
+}
+
+/*Formatação do conteúdo principal da página principal*/
+
+section#conteudo-principal{
+    width: 55%;
+    background-color: rgb(191, 129, 118);
+    color: rgb(33, 55, 59);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 4px 4px 10px rgb(87, 87, 87);
+    border-right: 1px black solid;
+
+}
+
+section#conteudo-principal h2{
+    background-color: rgba(210, 148, 107, .6);
+    padding: 2px;
+}
+
+section#conteudo-principal p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/*Formatação da sidebar*/
+
+aside#sidebar{
+    margin-left: 20px;
+    min-width: 10px;
+    width: 38%;
+    background-color: rgb(228, 175, 142);
+    box-shadow: 4px 4px 10px rgb(87, 87, 87);
+    padding: 5px;
+}
+
+ul#sidebar-list li{
+    margin: 5px;
+}
