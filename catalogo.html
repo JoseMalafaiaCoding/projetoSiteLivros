@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Jose Carlos Malafaia Ferreira Junior">
+    <meta name="description"
+        content="Site simples com uma informação básica de alguns livros que gosto de ler e que tenho lido durante da pandemia e que fazem parte da construção da minha vida.">
+    <link rel="shortcut icon" href="_icons/livros.png" type="image/x-icon">
+    <link rel="stylesheet" href="_css/estilo-principal.css">
+    <link rel="stylesheet" href="_css/estilo-catalago.css">
+    <title>Livros que leio</title>
+</head>
+
+<body>
+    <!--Aqui fica a área de cabeçalho do site, contendo o título da página centralizado e uma logo simples do lado direito-->
+    <header id="cabecalho-principal">
+        <h1>Minha estante de livros que leio</h1>
+        <img src="" alt="Logo do site">
+    </header>
+    <!--Aqui fica o menu de navegação do site, contendo links para outras seções com os conteúdos principais da página-->
+    <nav id="menu-principal" aria-label="">
+        <h1>Menu de navegação</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Catálago</li>
+            <li><a href="">Autores</a></li>
+            <li><a href="">Gêneros</a>
+                <ul class="submenu">
+                    <li>Literatura</li>
+                    <li>Ficção</li>
+                    <li>Suspense</li>
+                    <li>Distopia</li>
+                    <li>Romance</li>
+                    <li>Ciência</li>
+                </ul>
+            </li>
+            <li><a href="">Resenhas</a></li>
+        </ul>
+    </nav>
+    <!--Breadcrumps com a navegação entre páginas-->
+    <nav id="breadcrumps" aria-label="">
+    </nav>
+    <!--Aqui fica a região principal da página, onde se encontra o conteúdo que o site aborda e algumas referências a outros conteúdos e outras partes do site-->
+    <main id="corpo">
+        <!--Título principal da página-->
+        <header id="cabecalho-corpo">
+            <h1>Catálogo</h1>
+        </header>
+        <!--Aqui ficam as seções contendo o tema principal da página, no caso da página principal serão alguns parágrafos abordando algumas informações iniciais do site, objetivos, inspirações, (talvez) detalhes da minha vida, etc.-->
+        <!--Para outras páginas ficaram contidas as informações dos livros em uma formatação diferente da página principal-->
+        <!--div para definir o layout flex do conteudo da página separado do título-->
+        <div id="conteudo-pagina">
+            <section id="conteudo-principal">
+                <table class="tabela-livro">
+                    <caption>Informações do livro</caption>
+                    <tr>
+                        <th scope="col" colspan="2" class="hTitulo">Título do livro</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="7"><img src="_capas/capa-bras-cubas.jpg" alt="Capa do livro"></td>
+                    </tr>
+                    <tr>
+                        <td>Autor: Machado de Assis</td>
+                    </tr>
+                    <tr>
+                        <td>Gênero: Literatura/Realismo</td>
+                    </tr>
+                    <tr>
+                        <td>Ano: 1881</td>
+                    </tr>
+                    <tr>
+                        <td>Local: Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td>Páginas: 368</td>
+                    </tr>
+                    <tr>
+                        <td>Comprar: <a href="https://www.amazon.com.br/Mem%C3%B3rias-P%C3%B3stumas-Br%C3%A1s-Cubas-Exclusiva/dp/658021001X/ref=asc_df_658021001X/?tag=googleshopp00-20&linkCode=df0&hvadid=379725131710&hvpos=&hvnetw=g&hvrand=13353729116557840729&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001622&hvtargid=pla-811743520298&psc=1" target="_blank" rel="noopener noreferrer">Amazon</a></td>
+                    </tr>
+                </table>
+            </section>
+
+            <!--No side se encontram informações paralelas ao conteúdo principal, como links para páginas dos autores, algumas imagens extras, novidades, notícias, etc.-->
+            <aside id="sidebar">
+                <ul id="sidebar-list">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Sed tempor fringilla lorem, et ultricies nisi viverra id.</li>
+                    <li>Phasellus velit lectus, laoreet in quam pharetra, molestie tincidunt justo. </li>
+                    <li>Donec gravida nisl ac lectus placerat condimentum.</li>
+                    <li>Donec consectetur sapien eget urna accumsan euismod.</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <!--No footer ficam as informações de copyright, mas nada muito elaborado, já que não possuo uma marca própria-->
+    <footer id="rodape"></footer>
+
+    <script src="_javascript/script-principal.js"></script>
+</body>
+
+</html>
